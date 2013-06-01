@@ -1,0 +1,37 @@
+#myModal {
+  background: #00ff00 url('/Assets/images/FoodEasy/popup_bg.png') no-repeat;
+  height: 782px;
+  width: 560px;
+}
+#myModal .modal-footer {
+  background: transparent;
+  border: none;
+}
+.container #top .navbar{
+	margin-bottom: 0;
+}
+.swiper-container, .swiper-slide  {
+	width: 500px;
+	height: 200px;
+}
+.swiper-container2 {
+	width: 500px;
+	height: 200px;
+}
+.swiper-container3 {
+	width: 500px;
+	height: 200px;
+}
+#checkout-main1{
+	height: 300px;
+	background: #9c0f0c;
+	padding: 30px 15px;
+}
+#checkout-main1 #board{
+	padding: 30px 15px;
+	background: #fffbf5;
+}
+#checkout-main2{
+	padding: 30px 15px;
+	background: #9c0f0c;
+}

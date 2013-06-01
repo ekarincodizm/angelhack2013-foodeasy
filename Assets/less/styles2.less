@@ -1,0 +1,47 @@
+/******************************************************************
+Site Name: Best Test Online
+Author: ES
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+//
+// IMPORTING STYLES
+//
+
+// import normalize
+@import "_normalize.less";
+
+// import mixins
+@import "_mixins.less";
+
+/*
+BASE (MOBILE) SIZE
+This are the mobile styles. It's what people see on their phones. If
+you set a great foundation, you won't need to add too many styles in
+the other stylesheets. Remember, keep it light: Speed is Important.
+*/
+
+// styles in base.less
+@import "_base.less";
+
+
+
+/*
+TABLET & SMALLER LAPTOPS
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*/
+@media only screen and (min-width: 768px) {
+
+
+	// styles in 768up.less
+	@import "_768up.less";
+
+} // end of media query

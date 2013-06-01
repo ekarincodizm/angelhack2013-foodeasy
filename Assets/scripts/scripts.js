@@ -7,7 +7,7 @@ $(function(){
 	});
 })
 $(function(){
-	var mySwiper = $('.swiper-container').swiper({
+	var mySwiper = $('.swiper2-container').swiper({
 		//Your options here:
 		mode:'horizontal',
 		loop: true

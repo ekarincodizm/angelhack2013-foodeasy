@@ -1,3 +1,12 @@
+#myModal {
+  background: #00ff00 url('popup_bg .png') no-repeat fixed center;
+  height: 782px;
+  width: 560px;
+}
+#myModal .modal-footer {
+  background: transparent;
+  border: none;
+}
 .container #top .navbar{
 	margin-bottom: 0;
 }

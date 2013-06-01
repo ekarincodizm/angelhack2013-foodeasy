@@ -22,3 +22,16 @@
 	width: 500px;
 	height: 200px;
 }
+#checkout-main1{
+	height: 300px;
+	background: #9c0f0c;
+	padding: 30px 15px;
+}
+#checkout-main1 #board{
+	padding: 30px 15px;
+	background: #fffbf5;
+}
+#checkout-main2{
+	padding: 30px 15px;
+	background: #9c0f0c;
+}

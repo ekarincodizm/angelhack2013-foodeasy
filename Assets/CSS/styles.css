@@ -1,5 +1,5 @@
 #myModal {
-  background: #00ff00 url('popup_bg .png') no-repeat fixed center;
+  background: #00ff00 url('/Assets/images/FoodEasy/popup_bg.png') no-repeat;
   height: 782px;
   width: 560px;
 }

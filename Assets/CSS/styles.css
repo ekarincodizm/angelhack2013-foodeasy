@@ -1,4 +1,5 @@
-#top{
-	display: relative;
-	background-color: #f00;
+.container #main1 #slider1.carousel.slide,
+.container #main2 #slider2.carousel.slide,
+.container #main3 #slider3.carousel.slide{
+	margin-bottom: 0;
 }

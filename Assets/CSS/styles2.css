@@ -623,8 +623,9 @@ body #index #top .navbar img {
 }
 #myModal {
   background: #00ff00 url('/Assets/images/FoodEasy/popup_bg.png') no-repeat;
-  height: 782px;
-  width: 560px;
+  background-size: 90%;
+  height: 380px;
+  width: 300px;
 }
 #myModal .modal-footer {
   background: transparent;
@@ -898,20 +899,4 @@ you can add resource intensive styles.
   come into play. Have fun!
   
   ******************************************************************/
-}
-
-
-#modal-header1{
-	border-bottom: none;
-}
-
-/* Arming change later*/
-#splash-screen-page.container #fblogin{
-	text-align: center;
-}
-
-#fblogin{
-	position: absolute;
-	top: 500px;
-	left: 175px;
 }

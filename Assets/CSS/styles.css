@@ -31,6 +31,12 @@
 	width: 31.491712707182323%;
 	float: left;
 }
+.text-red{
+	color:#9C0F0C;
+}
+.bottom10px{
+	margin-bottom: 10px;
+}
 #checkout-main1 #head-board{
 	background-image: url("../../Assets/images/FoodEasy/top-receipt.png");
 	background-size: 60.5% 100%;

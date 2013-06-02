@@ -66,7 +66,7 @@ body {
           border-radius: @radius;
 }
 
-.btn {
+.btn2 {
   display: inline-block;
   color:@white;
   padding: .25em .75em;
@@ -90,19 +90,28 @@ body {
 }
 
 .food-text{
-	font-weight:bold;
+	font-weight:500;
 	font-size:@font-size;
 	color:@white;
 	letter-spacing:2px;
-	margin-bottom:2em;
-	margin-top:.7em;
-	padding-left:1em;
+	.proxima_regular;
+	display:inline-block;
+	padding-left:.7em;
+	padding-top:.2em;
+	text-shadow:0 2px 0 @black;
+
 }
 .price-text{
+	font-weight:500;
+	font-size:@font-size;
+	color:@white;
+	letter-spacing:2px;
 	float:right;
-	.food-text;
-	padding-left:0;
+	z-index:999999;
+	padding-top:.2em;
 	padding-right:1em;
+	.gotham_bold;
+	text-shadow:0 2px 0 @black;
 }
 
 
@@ -181,6 +190,69 @@ body {
 		margin:0;
 	}
 }
-.buttons {.btn;}
+.buttons {.btn2;}
 
 #main1{margin-bottom:3em;}
+
+#checkout-main1{
+
+	background: #9c0f0c;
+	padding: 2em 6em;
+
+	.width31{
+		width: 30%;
+		float: left;
+		&.food {width:35%;padding-left:1em;padding-left:1em;}
+		&.pad {padding-left:1.5em;}
+		&.qty {text-align:center;}
+		&.price {text-align:center;}
+	}
+	.width100{
+		width:100%;
+		padding-left:1em;
+		&.em{font-weight:900;font-size:1.1em;.gotham_bold;white-space:nowrap;color:@gray-dark;margin:.5em 0;}
+		&.pad {padding-left:1.5em;}
+	}
+
+	#head-board{
+		background-image: url("../../Assets/images/FoodEasy/top-receipt.png");
+		background-repeat: no-repeat;
+		padding: 1em 0;
+		margin-left: -.75em;
+		width: 105%;
+		margin-top: -2.5em;
+		background-size: 100%;
+	}
+
+	#board{
+		padding: 2em 0em 0 0em;
+		background: #fffbf5;
+		background-image: url("../../Assets/images/FoodEasy/top-receipt.png");
+		background-size: 110% -1em;
+		background-repeat: no-repeat;
+		width:100%;
+		
+		.row-fluid{
+			&.strong {font-weight:900;font-size:1.2em;.gotham_bold;white-space:nowrap;padding:.5em 0;}
+			&.blue {color:@login-blue;}
+		}
+	}
+
+	#Foot-board{
+		background-image: url("../../Assets/images/FoodEasy/bottom-receipt.png");
+		background-repeat: no-repeat;
+		padding: 4em 0em 0em 0em;
+		width:100%;
+		z-index:9999;
+	}
+}
+
+#checkout-main2{
+	padding: 30px 15px;
+	background: #9c0f0c;
+	#link{
+		text-align: center; 
+	}
+}
+
+

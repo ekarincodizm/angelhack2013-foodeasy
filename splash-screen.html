@@ -52,12 +52,12 @@
 				FB.api('/me', function(response) {
 					console.log('Good to see you, ' + response.name + '.');
 				});
-				window.location = "index.html";
+				window.location = "map.html";
 			}
 		</script>
 		<div id="splash-screen-page" class="container">
 			<img src="/Assets/images/FoodEasy/bg-Splash-screen.jpg" alt="Food Easy">
-			<div id="fblogin">
+			<div id="fblogin" style="position: absolute; top:260px;left:30px">
 				<a href="#" id="splash-img"><img src="/Assets/images/FoodEasy/fb-button.png" alt="Food Easy"></a>
 			</div>
 		</div>

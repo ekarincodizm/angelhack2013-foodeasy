@@ -35,7 +35,7 @@
 
 			<div id="checkout-main2">
 				<div id="link">
-					<button class="btn">Deliver to this address</button>
+					<button id="linker"  onClick="window.location.href='index.html'" class="btn">Deliver to this address</button>
 				</div>
 			</div>
 		</div>
@@ -43,5 +43,15 @@
 		<script src="./Assets/scripts/bootstrap.min.js"></script>
 		<script defer src="./Assets/scripts/Swiper-master/idangerous.swiper-1.9.1.min.js"></script>
 		<script src="./Assets/scripts/scripts.js"></script>
+		<script>
+			jQuery(document).ready(
+				function(){
+					jQuery('#linker').click(function(){
+						window.location = "index.html";
+					});
+				}
+			);
+		</script>
+		
 	</body>
 </html>

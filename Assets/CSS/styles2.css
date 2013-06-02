@@ -622,7 +622,7 @@ body #index #top .navbar img {
   width: 100%;
 }
 #myModal {
-  background: #00ff00 url('/Assets/images/FoodEasy/popup_bg.png') no-repeat;
+  background:  url('/Assets/images/FoodEasy/popup_bg.png') no-repeat;
   background-size: 90%;
   height: 380px;
   width: 300px;
@@ -779,7 +779,7 @@ body #index #top .navbar img {
   text-decoration: none;
 }
 #main1 {
-  margin-bottom: 3em;
+  margin-bottom: 0px;
 }
 #checkout-main1 {
   background: #9c0f0c;

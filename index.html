@@ -7,7 +7,7 @@
 		 
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" /> 
 		<!-- iphone size 640 * 960	px -->
 	</head>
 	<body>
@@ -21,7 +21,7 @@
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
 						<!--First Slide-->
-						<div href="#myModal" class="swiper-slide" data-toggle="modal">
+						<div href="#myModal" ondbclick="window.location='checkout.html'; return false;" class="swiper-slide" data-toggle="modal">
 							<img src="./Assets/images/FoodEasy/dishes/1.jpg" data-toggle="modal"/>
 							<span class="food-text">Pork Ribs</span>
 							<span class="price-text">450 baht</span>
@@ -46,7 +46,7 @@
 
 </div>
 
-		<div id="main2">
+		<div id="main2" style="margin-top: -70px;">
 				<div class="swiper-container2">
 					<div class="swiper-wrapper">
 						<!--First Slide-->
@@ -80,21 +80,24 @@
  		-->
 
 		<!-- modal -->
-		<a href="checkout.html">
 		
 		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-header" id="modal-header1" style="">
+			<div class="modal-header" id="modal-header1" style="border: none;">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<img src="./Assets/images/FoodEasy/close.png" />
 				</button>
+				<a href="checkout.html"><img src="get-it-button.png" style="width: 80px;
+top: 335px;
+position: absolute;
+left: 180px;"/></a>
 
 			</div>
-			<div class="modal-body" style="visibility: hidden">
+			<div class="modal-body" style="visibility: hidden" style="border: none;">
 				<p>
 					One fine body
 				</p>
 			</div>
-			<div class="modal-footer">
+			<div class="modal-footer"  style="display:none; border: none;" onclick="window.location='checkout.html'; return false;">
 				<!-- <button class="btn" data-dismiss="modal" aria-hidden="true" style="margin-top: 608px;">
 					Close
 				</button> -->
@@ -112,7 +115,14 @@
 		</a>
 		<script src="./Assets/scripts/jquery-1.10.1.min.js"></script>
 		<script src="./Assets/scripts/bootstrap.min.js"></script>
-		<script defer src="./Assets/scripts/Swiper-master/idangerous.swiper-1.9.1.min.js"></script>
+		
 		<script src="./Assets/scripts/scripts.js"></script>
+		<script>
+		$( document ).ready(function() {
+	$('.modal-footer').click(function(){alert('adsf')});
+		$('#mymodal').click(function(){alert('adsf')});
+});
+		</script>
+		<script defer src="./Assets/scripts/Swiper-master/idangerous.swiper-1.9.1.min.js"></script>
 	</body>
 </html>

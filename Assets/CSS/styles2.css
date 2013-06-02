@@ -833,6 +833,27 @@ body #index #top .navbar img {
   background-repeat: no-repeat;
   width: 100%;
 }
+#checkout-main1 #board iframe {
+  width: 100%;
+  height: 360px;
+}
+#checkout-main1 #board small {
+  float: right;
+  padding-right: 2em;
+}
+#checkout-main1 #board label {
+  padding-left: 1em;
+  font-weight: bold;
+}
+#checkout-main1 #board .input-wrapper {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1.2em;
+}
+#checkout-main1 #board .input-xxlarge {
+  width: 100%;
+}
 #checkout-main1 #board .row-fluid.strong {
   font-weight: 900;
   font-size: 1.2em;

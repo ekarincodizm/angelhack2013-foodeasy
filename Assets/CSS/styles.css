@@ -23,15 +23,34 @@
 	height: 200px;
 }
 #checkout-main1{
-	height: 300px;
+/*	height: 300px;*/
 	background: #9c0f0c;
-	padding: 30px 15px;
+	padding: 30px 71px;
+}
+.width31{
+	width: 31.491712707182323%;
+	float: left;
+}
+#checkout-main1 #head-board{
+	background-image: url("../../Assets/images/FoodEasy/top-receipt.png");
+	background-size: 60.5% 100%;
+	background-repeat: no-repeat;
+	padding: 10px 500px;
 }
 #checkout-main1 #board{
 	padding: 30px 15px;
 	background: #fffbf5;
 }
+#checkout-main1 #Foot-board{
+	background-image: url("../../Assets/images/FoodEasy/bottom-receipt.png");
+	background-size: 60.5% 100%;
+	background-repeat: no-repeat;
+	padding: 10px 500px;	
+}
 #checkout-main2{
 	padding: 30px 15px;
 	background: #9c0f0c;
+}
+#checkout-main2 #link{
+	text-align: center; 
 }

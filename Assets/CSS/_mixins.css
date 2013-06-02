@@ -15,3 +15,76 @@ A WORD OF WARNING: It's very easy to overdo it here. Be careful and
 remember less is more. 
 
 ******************************************************************/
+/*********************
+COLORS
+*********************/
+/*********************
+TYPOGRAPHY
+*********************/
+/* 	To embed your own fonts, use this syntax
+	and place your fonts inside the 
+	library/fonts folder. For more information
+	on embedding fonts, go to:
+	http://www.fontsquirrel.com/
+	Be sure to remove the comment brackets.
+*/
+@font-face {
+  font-family: 'Gotham_Light';
+  src: url('../fonts/gotham_light.eot');
+  src: url('../fonts/gotham_light.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham_light.woff') format('woff'), url('../fonts/gotham_light.ttf') format('truetype'), url('../fonts/gotham_light.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.gotham_light {
+  font-family: "gotham_light";
+}
+@font-face {
+  font-family: 'Gotham_Medium';
+  src: url('../fonts/gotham_medium.eot');
+  src: url('../fonts/gotham_medium.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham_medium.woff') format('woff'), url('../fonts/gotham_medium.ttf') format('truetype'), url('../fonts/gotham_medium.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.gotham_medium {
+  font-family: "gotham_medium";
+}
+@font-face {
+  font-family: 'Gotham_Bold';
+  src: url('../fonts/gotham_bold.eot');
+  src: url('../fonts/gotham_bold.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham_bold.woff') format('woff'), url('../fonts/gotham_bold.ttf') format('truetype'), url('../fonts/gotham_bold.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.gotham_bold {
+  font-family: "gotham_bold";
+}
+@font-face {
+  font-family: 'Gotham_Book';
+  src: url('../fonts/gotham_book.eot');
+  src: url('../fonts/gotham_book.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham_book.woff') format('woff'), url('../fonts/gotham_book.ttf') format('truetype'), url('../fonts/gotham_book.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.gotham_book {
+  font-family: "gotham_book";
+}
+@font-face {
+  font-family: 'Proximanova_Regular';
+  src: url('../fonts/proximanova-regular-webfont.eot');
+  src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-regular-webfont.woff') format('woff'), url('../fonts/proximanova-regular-webfont.ttf') format('truetype'), url('../fonts/proximanova-regular-webfont.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.proxima_regular {
+  font-family: "Proximanova_Regular";
+}
+@font-face {
+  font-family: 'Proximanova_Bold';
+  src: url('../fonts/proximanova-bold-webfont.eot');
+  src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-bold-webfont.woff') format('woff'), url('../fonts/proximanova-bold-webfont.ttf') format('truetype'), url('../fonts/proximanova-bold-webfont.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.proxima_bold {
+  font-family: "Proximanova_Bold";
+}

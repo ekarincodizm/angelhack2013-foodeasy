@@ -4,6 +4,10 @@
 		<link rel="stylesheet" type="text/css" href="./Assets/CSS/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="./Assets/CSS/bootstrap-responsive.min.css">
 		<link rel="stylesheet" type="text/css" href="./Assets/CSS/styles2.css">
+		 
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 		<!-- iphone size 640 * 960	px -->
 	</head>
 	<body>
@@ -77,23 +81,30 @@
 
 		<!-- modal -->
 		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-header">
+			<div class="modal-header" id="modal-header1" style="">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					<img src="./Assets/images/FoodEasy/close.png" />
 				</button>
 
 			</div>
-			<div class="modal-body">
+			<div class="modal-body" style="visibility: hidden">
 				<p>
 					One fine body
 				</p>
 			</div>
 			<div class="modal-footer">
-				<button class="btn" data-dismiss="modal" aria-hidden="true">
+				<!-- <button class="btn" data-dismiss="modal" aria-hidden="true" style="margin-top: 608px;">
 					Close
-				</button>
-				<button class="btn btn-primary">
-					Save changes
-				</button>
+				</button> -->
+				<a href="#"><button class="btn btn-warning food-text" id="btn-get-it" data-dismiss="modal" style="
+					margin-top: 597px; margin-right: 8px; padding: 15px 28px; font-size: 30px; border-radius: 15px;">
+						<strong>Eat more + </strong>
+				</button></a>
+				<a href="checkout.html"><button class="btn btn-primary" id="btn-get-it" style="
+					margin-top: 597px; margin-right: 8px; padding: 15px 28px; 
+					opacity:0.0; filter:alpha(opacity=0);">
+						Save changes
+				</button></a>
 			</div>
 		</div>
 		<script src="./Assets/scripts/jquery-1.10.1.min.js"></script>

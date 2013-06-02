@@ -41,6 +41,12 @@
 	padding: 30px 15px;
 	background: #fffbf5;
 }
+#checkout-main1 #Foot-board{
+	background-image: url("../../Assets/images/FoodEasy/bottom-receipt.png");
+	background-size: 60.5% 100%;
+	background-repeat: no-repeat;
+	padding: 10px 500px;	
+}
 #checkout-main2{
 	padding: 30px 15px;
 	background: #9c0f0c;

@@ -899,3 +899,8 @@ you can add resource intensive styles.
   
   ******************************************************************/
 }
+
+
+#modal-header1{
+	border-bottom: none;
+}
